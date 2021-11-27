@@ -1,5 +1,6 @@
 .body {   
- background-color: coral;
+ 
+   background-color: slategray;
 
    }
 
@@ -17,7 +18,7 @@
 
    .Button-linking:hover{
 
-background-color: gray;
+background-color: greenyellow;
 
    }
 
@@ -27,3 +28,12 @@ background-color: gray;
 
    }
     
+   .imgsize {
+
+      margin: 15px;
+      width: 275px;
+      height: 50p250x;
+      object-fit: cover;
+      
+
+   }
