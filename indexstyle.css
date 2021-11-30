@@ -5,7 +5,7 @@
       border: 0.6px solid darkseagreen;
       border-radius: 0.11px lightgreen;
       background-color: darkseagreen;
-      color: black;
+      color: grey;
       font-size: 0.8rem;
       text-decoration: none;
       cursor: pointer;
@@ -33,9 +33,9 @@ background-color: greenyellow;
 
    }
 
-   .body {
+   body {
 
-      background-color: purple;
+      background-color: rgb(191, 128, 255);
 
 
 
@@ -52,3 +52,9 @@ background-color: greenyellow;
 
    }
    
+   .h1 {
+
+
+      font-family: Arial;
+      font-size: 5cm;
+   }
