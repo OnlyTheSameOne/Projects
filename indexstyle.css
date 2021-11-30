@@ -33,28 +33,37 @@ background-color: greenyellow;
 
    }
 
-   body {
+   body{
 
-      background-color: rgb(191, 128, 255);
-
-
-
+     
    }
 
+   
+
+   
 
    .img {
 
       margin: 15px;
       width: 20px;
       height: 123px;
-   object-fit: cover
+   object-fit: fill;
 
 
    }
    
-   .h1 {
+   h1 {
 
 
-      font-family: Arial;
-      font-size: 5cm;
+     
+
+   }
+
+   nav {
+
+      
+
+
+
+
    }
