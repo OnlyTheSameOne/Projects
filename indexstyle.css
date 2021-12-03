@@ -1,69 +1,8 @@
+.logo {
 
-    .Button-linking {
+width:  200px;
+height: auto;
+margin-left: 50%;
+margin-top: 1%;
 
-      padding: 0.5em  0.3em;
-      border: 0.6px solid darkseagreen;
-      border-radius: 0.11px lightgreen;
-      background-color: darkseagreen;
-      color: grey;
-      font-size: 0.8rem;
-      text-decoration: none;
-      cursor: pointer;
-   }
-
-   .Button-linking:hover{
-
-background-color: greenyellow;
-
-   }
-
-   .p {
-
-    color: white;  
-
-   }
-    
-   .imgsize {
-
-      margin: 15px;
-      width: 275px;
-      height: 50p250x;
-      object-fit: cover;
-      
-
-   }
-
-   body{
-
-     
-   }
-
-   
-
-   
-
-   .img {
-
-      margin: 15px;
-      width: 20px;
-      height: 123px;
-   object-fit: fill;
-
-
-   }
-   
-   h1 {
-
-
-     
-
-   }
-
-   nav {
-
-      
-
-
-
-
-   }
+}
