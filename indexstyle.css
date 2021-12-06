@@ -1,50 +1,44 @@
 .logo{
 
-width: 170px;
-height: auto;
-float: left;
-padding: 2ßpx;
+   width: 170px;
+   height: auto;
+   float: left;
+   padding: 2ßpx;
 
 }
 
 nav ul{
-
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    
+   margin: 0;
+   padding: 0;
+   list-style: none;
+      
 
 }
 
 nav li {
-
-display:inline-block ;
-margin-left: 55px ;
-padding-top: 15px;
-position: relative;
-
+   display:inline-block ;
+   margin-left: 55px ;
+   padding-top: 15px;
+   position: relative;
+   padding: 0px;
 
 }
 
 nav a {
-
-
-color: black;
-text-decoration: none;
-text-transform: uppercase;
-font-size: 14px;
-
+   color: black;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 14px;
+   
 
 }
  nav a:hover {
-
-    color: white;
+color: white;
 
 
  }
 
  nav a::before{
-
     content: "";
     display: block;
     height: 5px;
@@ -59,34 +53,35 @@ font-size: 14px;
  }
 
  nav a:hover::before {
-
-    width: 100%;
+width: 100%;
 
  }
 
 .div.nav.logo{
-
-width: 80%;
-margin: 0 auto;
+   width: 80%;
+   margin: 0 auto;
 
 
 }
 
 header {
-
-background-color: #007786;
+   background-color: #007786;
 
 }
 nav{
-
-float: right;
+   float: right;
+   margin-right: 20px;
 
 }
 
 header::after{
-
     content: "";
     display: table;
     clear: both;
 }
 
+ header{
+position: relative;
+
+
+ }
