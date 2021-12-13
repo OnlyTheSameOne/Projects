@@ -1,0 +1,16 @@
+.text {
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: none;
+    color: black;
+    margin: bottom;
+    text-align: center;
+}
+
+.Bilder {
+    weight: auto;
+    height: 175px;
+    margin: right;
+    border: 3px solid black
+}
