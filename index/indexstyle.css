@@ -7,7 +7,7 @@ body {
 body {
     background: linear-gradient(-45deg, #00ffd0, #00e9d8, #00bde8, #00a7ef, #0091f7, #007bff);
     background-size: 400% 400%;
-    animation: gradient 30s ease infinite;
+    animation: gradient 3s ease infinite;
 }
 
 .text {
