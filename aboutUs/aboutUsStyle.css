@@ -2,6 +2,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    justify-content: center;
 }
 
 body {
@@ -9,3 +10,44 @@ body {
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
 }
+
+.ID-Karten {
+    border-radius: 84px;
+    background: #f7f7f7;
+    box-shadow: inset 6px 6px 20px #d2d2d2, inset -6px -6px 20px #ffffff;
+    width: 650px;
+    height: 500px;
+    padding-bottom: 2pt;
+    position: relative;
+    text-align: left;
+    padding: 20pt;
+    margin-left: 250pt;
+    padding-top: 0.5pt;
+}
+
+.ID-Text {}
+
+.ID-Liste {
+    list-style: none;
+    margin-left: 0;
+}
+
+.ID-Bilder {
+    display: flex;
+    float: right;
+    padding: 22px;
+    width: 150px;
+    height: 200px;
+}
+
+.ID-Head {
+    padding-top: 200px;
+}
+
+.Footer-icon {}
+
+.fa-instagram {
+    color: black;
+}
+
+.ID-PBild {}
