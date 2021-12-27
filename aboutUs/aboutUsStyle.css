@@ -16,13 +16,26 @@ body {
     background: #f7f7f7;
     box-shadow: inset 6px 6px 20px #d2d2d2, inset -6px -6px 20px #ffffff;
     width: 750px;
-    height: 500px;
+    height: 515px;
     padding-bottom: 2pt;
     position: relative;
     text-align: left;
     padding: 25pt;
     margin-left: 253pt;
-    padding-top: 0pt;
+    padding-top: 10pt;
+}
+
+.ID-Karten2 {
+    border-radius: 84px;
+    background: #f7f7f7;
+    box-shadow: inset 6px 6px 20px #d2d2d2, inset -6px -6px 20px #ffffff;
+    width: 750px;
+    height: 515px;
+    position: relative;
+    top: 30px;
+    padding: 25pt;
+    text-align: left;
+    margin-left: 253pt;
 }
 
 .ID-Text {}
@@ -35,34 +48,46 @@ body {
 }
 
 .ID-Bilder {
-    display: flex;
-    float: right;
-    width: 170px;
-    height: 170px;
-    padding: 100px;
-    padding-top: 1px;
+    border-radius: 10px;
+    bottom: 20px;
+    right: 160px;
     position: relative;
-    top: 25px;
-    right: 105px;
+    width: 150px;
+    height: 150px;
 }
 
-.ID-Head {
-    padding-top: 270px;
+.ID-Bilder2 {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    position: relative;
 }
+
+.ID-Same {
+    border-radius: 10px;
+    position: relative;
+}
+
+.ID-Head {}
 
 .ID-Jannik {
     width: 160px;
     height: 200px;
+    position: relative;
+    top: 15px;
+    left: 83px;
+    border-radius: 10px;
 }
 
 .ID-Text {
-    margin-top: 24px;
+    margin-top: 20px;
     font-family: Impact;
     font-weight: 700;
     font-style: none;
-    font-stretch: expanded;
-    font-display: flex;
-    padding-top: pt;
+    margin: 20px;
+    margin-left: 55px;
+    padding: 60px;
+    float: left;
 }
 
 li {
@@ -75,7 +100,7 @@ li a {
     text-align: center;
     padding: 14px 15px;
     text-decoration: none;
-    font-family: Arial;
+    font-family: Impact;
     position: sticky;
 }
 
@@ -96,16 +121,24 @@ ul {
 }
 
 footer {
-    display: flex;
-    border-top: 5px solid black;
+    background-color: grey;
+    border-top: 3px solid rgba(18, 18, 221, 0.879);
+    position: relative;
+    top: 90px;
 }
 
 .fa-instagram {
     color: black;
-    padding: 10px;
+    position: relative;
+    right: 1030px;
 }
 
 .fa-github-square {
     color: black;
-    padding: 10px;
+    position: relative;
+    right: 1020px;
+}
+
+.ID-Lange {
+    border-top: 4px solid grey;
 }
