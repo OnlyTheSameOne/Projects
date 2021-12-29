@@ -5,31 +5,25 @@ body {
     justify-content: center;
 }
 
-.text {
-    font-family: Arial;
-    text-align: center;
-}
-
-.text2 {
-    font-family: Arial;
-    text-align: left;
-    margin-left: 20px;
+body {
+    background: linear-gradient(-90deg, #00ffd0, #00e9d8, #00bde8, #00a7ef, #0091f7, #007bff);
+    background-size: 100%;
+    object-fit: cover;
+    animation: gradient 30s ease infinite;
 }
 
 .logo {
-    font-family: Arial;
+    font-family: sans-serif;
     color: white;
     float: left;
 }
-
-header {}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #033e5e;
+    background-color: #03045E;
     margin-top: -8px;
     margin-left: -8px;
 }
@@ -57,60 +51,100 @@ body {
     animation: gradient 30s ease infinite;
 }
 
-.Bilder {
-    width: auto;
-    height: 250px;
-    position: relative;
-    left: 20px;
+.Wtext {
+    margin-top: 90px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
 }
 
-.Bidler2 {
-    width: auto;
-    height: 250px;
+.Prodiv {
     position: relative;
-    right: 1000px;
+    top: 20px;
 }
 
-.box {
-    border: 0.2rem solid white;
+.Protext {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
 }
 
-.Zinsrechner {
-    font-size: large;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    right: 0;
-    top: 0;
-    width: calc(150, 100, 50);
+.Protext2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
 }
 
-.CharArray {
-    font-size: large;
-    display: inline-block;
-    vertical-align: top;
+.ZinsBild {
+    width: 450px;
+    height: 350px;
     position: relative;
-    right: 0;
-    top: 0;
-    width: calc(150, 100, 50);
+    left: 450px;
+    top: 50px;
+    border: 3px solid white;
 }
 
-.Sinusfunktion {
-    font-size: large;
-    display: inline-block;
-    vertical-align: top;
+.ZinsP {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: left;
     position: relative;
-    right: 0;
-    top: 0;
-    width: calc(150, 100, 50);
+    bottom: 325px;
+    left: 40px;
 }
 
-.Geldscheinpruefziffer {
-    font-size: large;
-    display: inline-block;
-    vertical-align: top;
+.PrüfBild {
+    width: 450px;
+    height: 350px;
     position: relative;
-    right: 0;
-    top: 0;
-    width: calc(150, 100, 50);
+    left: 450px;
+    top: 10px;
+    border: 3px solid white;
+}
+
+.PrüfP {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    bottom: 325px;
+    left: 40px;
+}
+
+.BBild {
+    width: 450px;
+    height: 350px;
+    position: relative;
+    left: 450px;
+    border: 3px solid white;
+}
+
+.BmiP {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    bottom: 325px;
+    left: 40px;
+}
+
+.ArrayBild {
+    border: 3px solid white;
+    width: 450px;
+    height: 350px;
+    position: relative;
+    left: 450px;
+}
+
+.ArrayP {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    bottom: 325px;
+    left: 40px;
 }

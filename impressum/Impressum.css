@@ -36,3 +36,34 @@ iframe {
     position: relative;
     top: -120px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #03045E;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+li a:hover {
+    background-color: #0082e6;
+}
+
+.logo {
+    float: left;
+}
