@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(-90deg, #00ffd0, #00e9d8, #00bde8, #00a7ef, #0091f7, #007bff);
+    background-size: auto;
+    object-fit: cover;
+    animation: gradient 30s ease infinite;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Head {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.Headp {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 50px;
+    line-height: 27px;
+    position: relative;
+    top: -60px;
+}
+
+.Text {
+    font-size: 90px;
+    line-height: 27px;
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+    position: relative;
+    top: -120px;
+}

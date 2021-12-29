@@ -5,10 +5,14 @@ body {
 }
 
 body {
-    background: linear-gradient(-45deg, #00ffd0, #00e9d8, #00bde8, #00a7ef, #0091f7, #007bff);
-    background-size: auto;
+    background: linear-gradient(-90deg, #00ffd0, #00e9d8, #00bde8, #00a7ef, #0091f7, #007bff);
+    background-size: 100%;
     object-fit: cover;
     animation: gradient 30s ease infinite;
+}
+
+header {
+    justify-content: center;
 }
 
 .ID-Karten {
@@ -19,6 +23,7 @@ body {
     height: 515px;
     padding-bottom: 2pt;
     position: relative;
+    top: 20px;
     text-align: left;
     padding: 25pt;
     margin-left: 253pt;
@@ -32,9 +37,21 @@ body {
     width: 750px;
     height: 515px;
     position: relative;
-    top: 30px;
+    top: 40px;
     padding: 25pt;
     text-align: left;
+    margin-left: 253pt;
+}
+
+.ID-Karten3 {
+    border-radius: 84px;
+    background: #f7f7f7;
+    box-shadow: inset 6px 6px 20px #d2d2d2, inset -6px -6px 20px #ffffff;
+    width: 750px;
+    height: 515px;
+    position: relative;
+    top: 60px;
+    padding: 25pt;
     margin-left: 253pt;
 }
 
@@ -49,45 +66,61 @@ body {
 
 .ID-Bilder {
     border-radius: 10px;
-    bottom: 20px;
-    right: 160px;
+    bottom: 70px;
+    left: 300px;
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 100px;
 }
 
 .ID-Bilder2 {
     border-radius: 10px;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 100px;
     position: relative;
+    left: 250px;
+    bottom: 70px;
+}
+
+.ID-Head {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 
 .ID-Same {
     border-radius: 10px;
-    position: relative;
+    width: 180px;
+    height: 200px;
+    margin-left: 30px;
 }
 
-.ID-Head {}
+.ID-KivaAz {
+    border-radius: 10px;
+    width: 180px;
+    height: 200px;
+    margin-left: 30px;
+}
 
 .ID-Jannik {
     width: 160px;
     height: 200px;
     position: relative;
-    top: 15px;
-    left: 83px;
+    top: 19px;
+    left: 33px;
     border-radius: 10px;
 }
 
 .ID-Text {
-    margin-top: 20px;
     font-family: Impact;
     font-weight: 700;
     font-style: none;
-    margin: 20px;
+    margin: 0px;
     margin-left: 55px;
-    padding: 60px;
+    padding: 50px;
+    padding-left: 70px;
     float: left;
+    position: relative;
 }
 
 li {
@@ -97,11 +130,12 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 15px;
+    text-align: left;
+    padding: 15px 15px;
+    margin-right: 20px;
     text-decoration: none;
     font-family: Impact;
-    position: sticky;
+    position: relative;
 }
 
 li a:hover {
@@ -112,19 +146,14 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: -8px;
+    margin-left: -8px;
     overflow: hidden;
     background-color: #03045E;
 }
 
 .logo {
     float: left;
-}
-
-footer {
-    background-color: grey;
-    border-top: 3px solid rgba(18, 18, 221, 0.879);
-    position: relative;
-    top: 90px;
 }
 
 .fa-instagram {
@@ -139,6 +168,26 @@ footer {
     right: 1020px;
 }
 
-.ID-Lange {
-    border-top: 4px solid grey;
+.fa-instagram-square {
+    color: black;
+    position: relative;
+    right: 0px;
+    left: 122px;
+    bottom: 30px;
 }
+
+.fa-github-square {
+    color: black;
+    position: relative;
+    left: 285px;
+    bottom: 30px;
+}
+
+.fa-twitter-square {
+    color: #1DA1F2;
+    position: relative;
+    bottom: 30px;
+    left: 435px;
+}
+
+header {}
